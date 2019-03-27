@@ -8,3 +8,6 @@ The code has the objective of:
 4. Write down the mesh in a recognized pattern (currently GMSH)
 5. Use Radial Basis Functions for completing the task of moving the curved mesh in an efficient way. 
 - It makes use of the LAPACK library for optimal speed.
+
+
+TODO: continue project description ...
