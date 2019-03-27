@@ -1,0 +1,37 @@
+# Written by ICEM CFD 15.0, user andre, Ter Mar 08 14:53:51 BRT 2016
+
+begin family GEOM
+    begin solver "CGNS"
+        begin bctype color
+            active 1
+            color 5911550 1
+        end bctype color
+    end solver "CGNS"
+end family GEOM
+
+begin family WALL
+    begin solver "CGNS"
+        begin bctype color
+            active 1
+            color 3604040 1
+        end bctype color
+    end solver "CGNS"
+end family WALL
+
+begin family FFIELD
+    begin solver "CGNS"
+        begin bctype color
+            active 1
+            color 16004000 1
+        end bctype color
+    end solver "CGNS"
+end family FFIELD
+
+begin family LIVE
+    begin solver "CGNS"
+        begin bctype color
+            active 1
+            color 3403390 1
+        end bctype color
+    end solver "CGNS"
+end family LIVE
